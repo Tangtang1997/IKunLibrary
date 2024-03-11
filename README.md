@@ -2,6 +2,8 @@
 
 ![](https://minio-api.limit-dancer.com/images/rabbitmq-logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=BZEIJS5MVW0GDKO89QRG%2F20240311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240311T064332Z&X-Amz-Expires=604800&X-Amz-Security-Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiJCWkVJSlM1TVZXMEdES084OVFSRyIsImV4cCI6MTcxMDE0MjUxNCwicGFyZW50IjoiYWRtaW4ifQ.b9mTJHPIq7rodXiWuZiTJUqwlmjxHN00AWa3li2Zin0tzEJW2zsv29hY8NaFkL84OuiQDT8i3mawv1e0nDCu3w&X-Amz-SignedHeaders=host&versionId=null&X-Amz-Signature=3238f61440f9523d77bbbe2b596669f1222ed60fe94dea7860e6f5515f8532ac)
 
+[toc]
+
 ## 1.引言
 
 [RabbitMQ](https://www.rabbitmq.com/) 是一个可靠且成熟的消息传递和流代理，它很容易部署在云环境、内部部署和本地机器上。它目前被全世界数百万人使用。
@@ -184,7 +186,7 @@ public class TestRequestHanlder : IRequestProcessorHandler<TestRequest>
 }
 ```
 
--   **托管服务**
+-   **使用 `IHostedService` 来托管服务**
 
 ```csharp
 public class SampleHostedService : IHostedService
@@ -227,7 +229,7 @@ public class SampleHostedService : IHostedService
 }
 ```
 
--   **注册服务**
+-   **注册并启用服务**
 
 ```csharp
 IHost host = Host.CreateDefaultBuilder(args)
