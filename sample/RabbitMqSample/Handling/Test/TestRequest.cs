@@ -2,6 +2,9 @@
 
 public class TestRequest : IRabbitMqRequest
 {
+    /// <summary>
+    /// 重试次数
+    /// </summary>
     public int RetryCount { get; set; }
 
     #region 自定义字段
