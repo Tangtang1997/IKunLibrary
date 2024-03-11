@@ -1,7 +1,7 @@
 # IKunLibrary
 
 ![](https://minio-api.limit-dancer.com/images/rabbitmq-logo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=BZEIJS5MVW0GDKO89QRG%2F20240311%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240311T064332Z&X-Amz-Expires=604800&X-Amz-Security-Token=eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiJCWkVJSlM1TVZXMEdES084OVFSRyIsImV4cCI6MTcxMDE0MjUxNCwicGFyZW50IjoiYWRtaW4ifQ.b9mTJHPIq7rodXiWuZiTJUqwlmjxHN00AWa3li2Zin0tzEJW2zsv29hY8NaFkL84OuiQDT8i3mawv1e0nDCu3w&X-Amz-SignedHeaders=host&versionId=null&X-Amz-Signature=3238f61440f9523d77bbbe2b596669f1222ed60fe94dea7860e6f5515f8532ac)
-
+@import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false}
 [TOC]
 
 ## 1.引言
